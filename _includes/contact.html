@@ -6,9 +6,10 @@
                     <h3 class="section-subheading text-muted"><!-- texto --></h3>
                 </div>
             </div>
+            <!--
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="sentMessage" id="contactForm" action="https://formspree.io/gorremi@gmail.com" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="control-group form-group">
@@ -33,11 +34,19 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Enviar</button>
+                                <button type="submit" >Enviar</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
+
+          -->
+          <form action="https://formspree.io/gorremi@gmail.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+        </form>
         </div>
     </section>
